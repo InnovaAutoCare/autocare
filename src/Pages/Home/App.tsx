@@ -37,12 +37,12 @@ function App() {
               />
               <CardServico
                 icon={carteiraIcon}
-                titulo='Diagnóstico preciso e 100% online'
+                titulo='Saiba todos os detalhes do orçamento'
                 texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos.'
               />
               <CardServico
                 icon={consertoIcon}
-                titulo='Diagnóstico preciso e 100% online'
+                titulo='Acompanhe em tempo real o status do conserto'
                 texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos.'
               />
             </div>
