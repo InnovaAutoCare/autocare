@@ -1,0 +1,14 @@
+.card-servico img{
+    margin-bottom: 10px;
+}
+.card-servico h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.card-servico p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: var(--cinza-escuro);
+}
