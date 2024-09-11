@@ -1,3 +1,4 @@
+/* ESTILIZAÇÃO MAIN */
 main{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -28,4 +29,21 @@ h1{
     font-size: 1.5rem;
     color: var(--cinza-escuro);
     margin-bottom: 20px;
+}
+
+/* TRATANDO RESPONSIVIDADE */
+@media (max-width: 850px){
+    /* RESPONSIVIDADE MAIN */
+    main{
+        grid-template-columns: 1fr;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .imagem-main{
+        height: 477px;
+        order: 1;
+    }
+    .texto-main{
+        order: 2;
+    }
 }
