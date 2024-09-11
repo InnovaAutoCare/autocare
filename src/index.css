@@ -41,3 +41,11 @@ img{
     padding-right: 20px ;
     margin: auto;
 }
+
+/* Componente H2 */
+.h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
