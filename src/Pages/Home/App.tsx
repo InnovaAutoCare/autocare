@@ -6,6 +6,8 @@ import CardServico from '../../components/CardServico'
 import diagnosticoIcon from '../../assets/svg/diagnostico-icon.svg'
 import carteiraIcon from '../../assets/svg/carteira-icon.svg'
 import consertoIcon from '../../assets/svg/conserto-icon.svg'
+import Passo from '../../components/Passo'
+import imgDiferenciais from '../../assets/images/imagem-diferenciais.jpg'
 
 
 function App() {
@@ -55,11 +57,26 @@ function App() {
             <h2 className="h2">Resolva os seus problemas com apenas <span>4 passos</span> simples</h2>
         </div>
         <div className="img-como-funciona">
-            <img src="assets/images/imagem-diferenciais.jpg" alt=""/>
+            <img src={imgDiferenciais} alt=""/>
         </div>
         <div className="conteudo-como-funciona">
             <div className="passo-a-passo">
-
+              <Passo
+                decorativoClass={true}
+                titulo='Conecte o App ao Bluetooth de seu veículo'
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos. Nossa tecnologia inovadora simplifica processos '/>
+              <Passo
+                decorativoClass={true}
+                titulo='Receba o orçamento detalhado e avalie se cabe no seu bolso'
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos. Nossa tecnologia inovadora simplifica processos '/>
+              <Passo
+                decorativoClass={true}
+                titulo='Agende com uma oficina próxima de sua escolha  '
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos. Nossa tecnologia inovadora simplifica processos '/>
+              <Passo
+                decorativoClass={false}
+                titulo='Seja atualizado pela oficina sobre quando seu carro ficará disponível para retirada'
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos. Nossa tecnologia inovadora simplifica processos '/>
             </div>
         </div>
       </section>

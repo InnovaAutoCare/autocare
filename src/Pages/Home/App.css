@@ -68,6 +68,53 @@ h1{
     align-self: center;
 }
 
+/* ESTILIZAÇÃO DIFERENCIAIS SECTION */
+.como-funciona{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 40px;
+    place-items: start;
+}
+.titulo-como-funciona h2 span{
+    color: var(--cor-p1);
+}
+.titulo-como-funciona{
+    align-self: start;
+}
+.img-como-funciona{
+    grid-column: 1;
+}
+.img-como-funciona img{
+    grid-column: 1;
+    border-radius: 20px;
+}
+.conteudo-como-funciona{
+    align-self: start;
+    grid-column: 2;
+    grid-row: 1 / -1;
+}
+.conteudo-como-funciona h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.conteudo-como-funciona p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    color: var(--cinza-escuro);
+}
+.passo-a-passo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    margin-left: 20px;
+}
+
 /* TRATANDO RESPONSIVIDADE */
 @media (max-width: 1000px){
     /* RESPONSIVIDADE SOBRE O SERVIÇO SECTION */
