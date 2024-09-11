@@ -50,7 +50,18 @@ function App() {
         </div>
       </section>
 
-      
+      <section className="como-funciona container" id="como-funciona" aria-label="Como funciona">
+        <div className="titulo-como-funciona">
+            <h2 className="h2">Resolva os seus problemas com apenas <span>4 passos</span> simples</h2>
+        </div>
+        <div className="img-como-funciona">
+            <img src="assets/images/imagem-diferenciais.jpg" alt=""/>
+        </div>
+        <div className="conteudo-como-funciona">
+            <div className="passo-a-passo">
+            </div>
+        </div>
+      </section>
       <Footer/>
     </>
   )
