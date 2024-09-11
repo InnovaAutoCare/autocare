@@ -59,6 +59,7 @@ function App() {
         </div>
         <div className="conteudo-como-funciona">
             <div className="passo-a-passo">
+
             </div>
         </div>
       </section>
