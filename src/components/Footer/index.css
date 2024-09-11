@@ -19,13 +19,13 @@
     list-style-type: none;
 }
 .footer ul li{
-    color: var(--cinza-claro);
+    color: #979797;
     font-family: "Inter", sans-serif;
     margin-bottom: 16px;
 }
 .footer ul a{
     text-decoration: none;
-    color: var(--cinza-claro);
+    color: #979797;
 }
 .footer-contato ul{
     margin-bottom: 32px;
