@@ -1,7 +1,12 @@
-import Button from '../../components/Button'
-import Footer from '../../components/Footer'
-import Header from '../../components/Header'
 import './App.css'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import Button from '../../components/Button'
+import CardServico from '../../components/CardServico'
+import diagnosticoIcon from '../../assets/svg/diagnostico-icon.svg'
+import carteiraIcon from '../../assets/svg/carteira-icon.svg'
+import consertoIcon from '../../assets/svg/conserto-icon.svg'
+
 
 function App() {
   return (
@@ -25,6 +30,21 @@ function App() {
                 <p>Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos.</p>
             </div>
             <div className="cards-servico">
+              <CardServico
+                icon={diagnosticoIcon}
+                titulo='Diagnóstico preciso e 100% online'
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos.'
+              />
+              <CardServico
+                icon={carteiraIcon}
+                titulo='Diagnóstico preciso e 100% online'
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos.'
+              />
+              <CardServico
+                icon={consertoIcon}
+                titulo='Diagnóstico preciso e 100% online'
+                texto='Nossa tecnologia inovadora simplifica processos e melhora a eficiência nos centros automotivos.'
+              />
             </div>
             <Button conteudo='CONHECER O SERVIÇO'/>
         </div>
