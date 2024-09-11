@@ -1,0 +1,23 @@
+.passo::before{
+    content: "";
+    display: inline-block;
+    background: rgb(41,189,253);
+    background: radial-gradient(circle, var(--cor-p2) 35%, var(--cor-p3) 35%);
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    position: absolute;
+    left: -28px;
+    margin-top: 5px;
+}
+.decorativo::after{
+    content: "";
+    display: inline-block;
+    background-color: var(--cor-p2);
+    width: 2px;
+    height: 79%;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    z-index: 1;
+}
