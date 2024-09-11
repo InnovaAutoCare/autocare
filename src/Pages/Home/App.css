@@ -125,6 +125,32 @@ h1{
     .card-servico:nth-child(3){
         grid-column: 1 /-1;
     }
+
+    /* RESPONSIVIDADE COMO FUNCIONA SECTION */
+    .como-funciona{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        place-items: unset;
+    }
+    .titulo-como-funciona{
+        text-align: center;
+        grid-row: 1;
+        grid-column: 1 / -1;
+    }
+    .conteudo-como-funciona{
+        grid-row: 2;
+        grid-column: 1 / -1;
+    }
+    .img-como-funciona{
+        grid-row: 3;
+        grid-column: 1 / -1;
+        background: center / cover no-repeat url("../assets/images/imagem-diferenciais.jpg");
+        border-radius: 20px;
+        height: 300px;
+    }
+    .img-como-funciona img{
+       display: none;
+    }
 }
 
 @media (max-width: 850px){
@@ -158,5 +184,23 @@ h1{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .como-funciona{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* RESPONSIVIDADE SOBRE O SERVIÇO SECTION */
+@media (max-width: 540px){
+    .decorativo::after{
+        height: 75%;
+    }
+}
+@media (max-width: 400px){
+    .decorativo-form::before,
+    .decorativo-form::after{
+        width: 140px;
     }
 }
