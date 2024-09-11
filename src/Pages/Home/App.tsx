@@ -48,7 +48,9 @@ function App() {
             </div>
             <Button conteudo='CONHECER O SERVIÇO'/>
         </div>
-    </section>
+      </section>
+
+      
       <Footer/>
     </>
   )
