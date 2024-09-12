@@ -80,6 +80,13 @@ function App() {
             </div>
         </div>
       </section>
+
+      <section className="avaliacoes" aria-label="Avaliações">
+        <h2 className="h2 container">Conheça a <span>opinião</span> de quem utilizou <br/>nosso <span>serviço</span></h2>
+        <ul>
+        </ul>
+      </section>
+
       <Footer/>
     </>
   )
