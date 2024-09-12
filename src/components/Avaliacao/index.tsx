@@ -8,7 +8,7 @@ function Avaliacao(props: {
 }) {
   return (
     <>
-        <li>
+        <li className='card-avaliacao'>
             <p>{props.texto}</p>
             <div className="pessoa">
                 <div className={`imagem-pessoa avaliacao${props.cardNumber}`}>

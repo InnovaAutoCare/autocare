@@ -8,6 +8,7 @@ import carteiraIcon from '../../assets/svg/carteira-icon.svg'
 import consertoIcon from '../../assets/svg/conserto-icon.svg'
 import Passo from '../../components/Passo'
 import imgDiferenciais from '../../assets/images/imagem-diferenciais.jpg'
+import Avaliacao from '../../components/Avaliacao'
 
 
 function App() {
@@ -84,6 +85,21 @@ function App() {
       <section className="avaliacoes" aria-label="Avaliações">
         <h2 className="h2 container">Conheça a <span>opinião</span> de quem utilizou <br/>nosso <span>serviço</span></h2>
         <ul>
+          <Avaliacao
+            texto='Meu carro foi consertado rapidamente e o preço foi justo. Recomendo sem hesitar!'
+            cardNumber={1}
+            nome='Rodrigo Freitas'
+            />
+          <Avaliacao
+            texto='Levei meu carro com um problema complicado e eles resolveram rapidamente. Além disso, me mantiveram informado durante todo o processo.'
+            cardNumber={2}
+            nome='João Pedro'
+            />
+          <Avaliacao
+            texto='Eles realmente se importam com seus clientes e fazem de tudo para garantir que você saia satisfeito. Não troco a Innova Auto Care por nada!'
+            cardNumber={3}
+            nome='Regina Fonseca'
+            />
         </ul>
       </section>
 
