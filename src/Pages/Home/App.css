@@ -208,10 +208,15 @@ h1{
         flex-direction: column;
         align-items: center;
     }
-
     .como-funciona{
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+    
+     /* RESPONSIVIDADE AVALIAÇÕES SECTION */
+     .avaliacoes{
+        padding-top: 60px;
+        padding-bottom: 120px;
     }
 }
 
