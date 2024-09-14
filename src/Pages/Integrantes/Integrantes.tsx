@@ -27,6 +27,22 @@ function Integrantes() {
             linkGithub='https://github.com/edvxndxvi'
             linkLinkedin='https://www.linkedin.com/in/edvan-davi-119970236/'
           />
+          <CardIntegrante
+            foto={rafaelGithub}
+            nome='Rafael Romanini'
+            rm='RM55463'
+            turma='Turma TDSPZ'
+            linkGithub='https://github.com/rafaelromanini'
+            linkLinkedin='https://www.linkedin.com/in/rafaelromanini/'
+          />
+          <CardIntegrante
+            foto={viniciusGithub}
+            nome='Vinícius Leandro'
+            rm='RM554728'
+            turma='Turma TDSPY'
+            linkGithub='https://github.com/ViniciusLABernardes'
+            linkLinkedin='https://www.linkedin.com/in/vinicius-leandro-de-araujo-bernardes-765a49254/'
+          />
         </ul>
         <a href="https://github.com/InnovaAutoCare/autocare" className={`${styleButton.button} ${style.rep_link}`} target="_blank">Repositório Git<img src={githubIcon} alt="" /></a>
       </section>

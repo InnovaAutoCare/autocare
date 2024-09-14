@@ -1,0 +1,30 @@
+.main_integrantes {
+    padding: 120px 0 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_integrantes h1{
+    text-align: center;
+}
+.main_integrantes h1 span{
+    color: var(--cor-p1);
+}
+.main_integrantes ul{
+    margin-top: 80px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+
+.rep_link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: center;
+    max-width: fit-content;
+    text-decoration: none;
+}
