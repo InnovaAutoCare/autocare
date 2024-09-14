@@ -7,6 +7,11 @@ import Footer from '../../components/Footer'
 function Integrantes() {
     return (
       <>
+        <Header/>
+
+
+
+        <Footer/>
       </>
     )
 }

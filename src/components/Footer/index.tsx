@@ -1,13 +1,14 @@
 import './index.css';
 import logoFooter from "../../assets/svg/logo-footer.svg";
 import githubIcon from "../../assets/svg/github-icon-footer.svg";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <>
       <footer className="footer-bg">
         <div className="footer container">
-            <a href="index.html"><img src={logoFooter} alt="Logo Innova AutoCare"/></a>
+            <Link to="/"><img src={logoFooter} alt="Logo Innova AutoCare"/></Link>
             <div className="footer-contato">
                 <h3>Contato</h3>
                 <ul>
@@ -17,7 +18,7 @@ function Footer() {
                     <li>São Paulo - SP</li>
                 </ul>
                 <div className="footer-redes">
-                    <a href="https://github.com/ViniciusLABernardes/innovatech" target="_blank"><img src={githubIcon} alt="Icone GitHub"/></a>
+                    <a href="https://github.com/InnovaAutoCare/autocare" target="_blank"><img src={githubIcon} alt="Icone GitHub"/></a>
                 </div>
             </div>
             <div className="footer-informacoes">
@@ -26,7 +27,7 @@ function Footer() {
                     <ul>
                         <li><a href="#sobre-serviço">Diferenciais</a></li>
                         <li><a href="#como-funciona">Como funciona</a></li>
-                        <li><a href="integrantes.html">Quem somos nós</a></li>
+                        <li><Link to="/integrantes">Quem somos nós</Link></li>
                     </ul>
                 </nav>
             </div>
