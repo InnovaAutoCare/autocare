@@ -1,11 +1,12 @@
-import './index.css';
+
+import style from './index.module.css'
 
 function Button(props:{
     conteudo: string;
 }) {
   return (
     <>
-      <button className="button">{props.conteudo}</button>
+      <button className={style.button}>{props.conteudo}</button>
     </>
   )
 }
