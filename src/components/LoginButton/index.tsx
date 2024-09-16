@@ -5,7 +5,7 @@ function LoginButton(props: {
 }) {
   return (
     <>
-       <li><a href=""><img src={props.img} alt=""/></a></li>
+       <li className='loginButton'><a href=""><img src={props.img} alt=""/></a></li>
     </>
   )
 }
