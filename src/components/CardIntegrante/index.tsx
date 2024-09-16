@@ -15,7 +15,7 @@ function CardIntegrante(props:{
         <li className="card_integrante">
             <img src={props.foto} alt="" className="profile-pic"/>
             <h3>{props.nome}</h3>
-            <p>{props.nome} - {props.turma}</p>
+            <p>{props.rm} - {props.turma}</p>
             <div className="redes-integrantes">
                 <a href={props.linkGithub} target="_blank"><img src={githubIcon} alt="Logo Github"/></a>
                 <a href={props.linkLinkedin} target="_blank"><img src={linkedinIcon} alt="Logo LinkedIn"/></a>
