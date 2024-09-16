@@ -3,7 +3,6 @@ import styleIndex from '../../index.module.css'
 
 import logo from '../../assets/svg/logo.svg'
 import { Link } from 'react-router-dom';
-import Button from '../../components/Button';
 import LoginButton from '../../components/LoginButton'
 import appleIcon from '../../assets/svg/apple-icon.svg'
 import googleIcon from '../../assets/svg/google-icon.svg'
@@ -30,7 +29,6 @@ function Login() {
                 <div className={styleIndex.inputs}>
                     <label htmlFor="idSenha">Senha</label>
                     <input type="password" id={styleIndex.idSenha} name="txtSenha"/>
-                    <i className="fa-regular fa-eye-slash"></i>
                 </div>
                 <div className={style.opcoes_senha}>
                     <div className={styleIndex.lembrar_senha}>

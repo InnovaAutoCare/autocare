@@ -10,12 +10,13 @@ function Header() {
     const hamburguerRef = useRef(null);
 
     const toggleNav = () => {
+        console.log('Button clicked!'); 
         setIsNavActive(!isNavActive);
     };
   return (
     <>
       <header>
-        <nav className={`${style.nav} ${styleIndex.container} ${isNavActive ? 'active' : ''}`}>
+        <nav className={`${style.nav} ${styleIndex.container} ${isNavActive ? style.active : ''}`}>
             <Link to='/'>
                 <img src={logoHeader} alt="Logo Innova AutoCare"/>
             </Link>
@@ -23,8 +24,8 @@ function Header() {
                     className={style.hamburguer}
                     onClick={toggleNav}
                     ref={hamburguerRef}
-                >
-                </button>
+            >
+            </button>
             <ul className={style.nav_list}>
                 <li><a href="#sobre-serviço">DIFERENCIAIS</a></li>
                 <li><a href="#como-funciona">COMO FUNCIONA</a></li>
