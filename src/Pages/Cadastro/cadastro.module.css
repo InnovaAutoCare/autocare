@@ -1,0 +1,48 @@
+.form_cadastro{
+    position: absolute;
+    transition: .5s;
+    padding-bottom: 80px;
+}
+.nome_inputs{
+    display: flex;
+    gap: 20px;
+}
+.cadastrar{
+    margin-top: 40px;
+}
+.form_switch_buttons{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    gap: 10px;
+    width: 273px;
+    position: relative;
+    border: 1px solid var(--cor-p1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.form_switch_buttons button{
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    font-size: 12px;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 10px;
+}
+.switch_buttons_color{
+    position: absolute;
+    width: 132px;
+    height: 100%;
+    background: #266DD3;
+    left: 0;
+    transition: .3s;
+    border-radius: 30px;
+}
+#cadastro_cliente{
+    color: white;
+}
+#form_cadastrar_parceiro{
+    display: none;
+    width: 380px;
+}
