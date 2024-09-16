@@ -25,8 +25,8 @@ function Footer() {
                 <h3>Informações</h3>
                 <nav>
                     <ul>
-                        <li><a href="#sobre-serviço">Diferenciais</a></li>
-                        <li><a href="#como-funciona">Como funciona</a></li>
+                        <li><Link to="/#sobre-serviço">Diferenciais</Link></li>
+                        <li><Link to="/#como-funciona">Como funciona</Link></li>
                         <li><Link to="/integrantes">Quem somos nós</Link></li>
                     </ul>
                 </nav>

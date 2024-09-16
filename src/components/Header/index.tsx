@@ -10,7 +10,6 @@ function Header() {
     const hamburguerRef = useRef(null);
 
     const toggleNav = () => {
-        console.log('Button clicked!'); 
         setIsNavActive(!isNavActive);
     };
   return (
@@ -27,8 +26,8 @@ function Header() {
             >
             </button>
             <ul className={style.nav_list}>
-                <li><a href="#sobre-serviço">DIFERENCIAIS</a></li>
-                <li><a href="#como-funciona">COMO FUNCIONA</a></li>
+                <li><a href="/#sobre-serviço">DIFERENCIAIS</a></li>
+                <li><a href="/#como-funciona">COMO FUNCIONA</a></li>
                 <li><Link to="/integrantes">QUEM SOMOS NÓS</Link></li>
                 <li><Link to="/login" className={style.area_cliente}>ÁREA DO CLIENTE</Link></li>
             </ul>
