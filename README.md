@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# Innova Auto Care 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="src/assets/images/ProjectPreview.jpg" alt="Exemplo imagem">
 
-Currently, two official plugins are available:
+> A Innova Auto Care é uma plataforma inovadora, que visa tornar a manutenção automotiva mais simples, transparente, confiável e principalmente técnologica para todos os clientes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React 
+- TypeScript
+- Vite
+- CSS Modules
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Instalando <autocare>
 
-- Configure the top-level `parserOptions` property like this:
+Para instalar o <autocare>, siga estas etapas:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Baixe o repositório
+- Abra o terminal e digite o comando:
+
+```
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## ☕ Usando <autocare>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para usar <autocare>, siga estas etapas:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+npm run dev
+```
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/edvxndxvi">
+        <img src="https://avatars.githubusercontent.com/u/109118071?v=4" width="100px;"/><br>
+        <sub>
+          <b>Edvan Davi</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rafaelromanini">
+        <img src="https://avatars.githubusercontent.com/u/162237423?v=4" width="100px;"/><br>
+        <sub>
+          <b>Rafael Romanini</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ViniciusLABernardes">
+        <img src="https://avatars.githubusercontent.com/u/111243990?v=4" width="100px;"/><br>
+        <sub>
+          <b>Vinicius Leandro</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
